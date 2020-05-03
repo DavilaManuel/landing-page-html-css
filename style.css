@@ -1,3 +1,11 @@
+:root {
+    --blanco: #f6f7eb;
+    --rojo: #e94f37;
+    --gris: #393e41;
+    --azul: #3f88c5;
+    --verde: #44bba4;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,3 +15,111 @@ html, body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Header */
+
+header {
+    background-image: url('./assets/ocean.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: opacity(1);
+    width: 100%;
+}
+
+header .container {
+    background-color: rgba(19, 252, 116, 0.3);
+    padding: 20px;
+}
+
+header .container h2 {
+    text-align: center;
+    margin: 10px 0;
+    color: var(--blanco);
+    font-size: 3em;
+}
+
+/* Container Header */
+
+.container-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Header Right */
+
+.header-right {
+    margin: 0px 30px;
+}
+
+/* Header Left */  
+
+.header-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #fff;
+    margin: 20px;
+}
+
+.form-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    color: var(--blanco);
+}
+
+h1 {
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+.form-content input {
+    margin-top: 10px;
+    width: 90%;
+    font-size: 1.5;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.form-content input:nth-of-type(n-1) {
+    padding-left: 10px;
+}
+
+.form-content input:nth-of-type(3) {
+    background-color: var(--rojo);
+    border: none;
+    margin-bottom: 10px;
+    color: var(--blanco);
+}
+/* End Header */
+
+/* Benefit Section */
+#benefit {
+    background-color: var(--gris);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Product Image */
+
+.benefit-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Befenits List */
+/* End Benefit Section */
+
+/* Video Section */
+/* Information Video */
+/* Container Video */
+/* End Video Section */
+
+/* Footer */
+/* Logo */
+/* Slogan */
+/* Social Media */
+/* End Footer */
