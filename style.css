@@ -99,7 +99,6 @@ h1 {
 #benefit {
     background-color: var(--gris);
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -107,10 +106,34 @@ h1 {
 
 .benefit-product {
     display: flex;
+    padding: 20px;
+    margin: 10px;
     justify-content: center;
     align-items: center;
+    width: 50%;
+    height: 500px;
 }
+
+.benefit-product img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 /* Befenits List */
+
+.benefit-list {
+    text-align: center;
+    width: 50%;
+    height: auto;
+    color: var(--blanco);
+}
+
+.benefit-list h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
 /* End Benefit Section */
 
 /* Video Section */
@@ -119,6 +142,7 @@ h1 {
 /* End Video Section */
 
 /* Footer */
+
 /* Logo */
 /* Slogan */
 /* Social Media */
