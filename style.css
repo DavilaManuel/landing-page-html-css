@@ -137,8 +137,61 @@ h1 {
 /* End Benefit Section */
 
 /* Video Section */
+
+#video {
+    background-color: var(--blanco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .container {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 /* Information Video */
+
+.information-video {
+    text-align: center;
+}
+
+.information-video button {
+    width: 100%;
+    margin-top: 15px;
+    background-color: var(--rojo);
+    color: var(--blanco);
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+
+.video-description {
+    display: flex;
+}
+
+.video-description-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Container Video */
+
+.container-video {
+    width: 100%;
+    height: auto;
+}
+
+.container-video iframe {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
 /* End Video Section */
 
 /* Footer */
